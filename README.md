@@ -1,51 +1,49 @@
-# Challenge Name
+# Markdown Blog Engine
 
 ## Overview
-[Difficulty level: Beginner/Intermediate/Advanced] Brief introduction to the challenge (2-3 sentences describing what the application is and why it's valuable). This [difficulty level] challenge focuses on implementing [key technical concepts/patterns].
+Create a web-based content management system that enables writers to create and publish articles using Markdown syntax with automatic formatting. This intermediate-level challenge focuses on building a publishing platform with content organization, efficient navigation, and optimized performance.
 
 ## Goal
-One clear, concise sentence describing what the participant will build and the primary value it provides to users.
+Build a blog engine that transforms simple Markdown text into beautifully formatted blog posts while providing robust content management and navigation capabilities.
 
 ## Required Features
-- **Feature 1**: Brief description of implementation details and user experience
-- **Feature 2**: Brief description of implementation details and user experience
-- **Feature 3**: Brief description of implementation details and user experience
-  - Sub-point 1 (if needed)
-  - Sub-point 2 (if needed)
-- **Feature 4**: Brief description of implementation details and user experience
-- **Feature 5**: Brief description of implementation details and user experience
+- **Markdown editor**: Implement a user-friendly editor for writing posts in Markdown with live preview
+- **Content management**: Create a system for drafting, editing, and publishing blog posts
+- **Publication workflow**: Include draft, scheduled, and published states for content
+- **Tag system**: Allow posts to be organized with custom tags or categories
+- **Pagination**: Implement efficient pagination for blog listings that maintains SEO best practices
+- **Responsive design**: Ensure the blog looks great on all device sizes
+- **Search functionality**: Add the ability to search through published content
+- **Performance optimization**: Implement build and rendering optimizations for fast page loads
+- **Static generation**: Generate static HTML for published content to improve performance
 
 ## Technical Requirements
-- Performance requirement 1 (e.g., target response times, scores)
-- Technical constraint 2 (e.g., security requirements)
-- Quality standard 3 (e.g., test coverage, accessibility)
-- Implementation requirement 4 (e.g., specific patterns or approaches)
-- Platform/environment requirement 5 (if applicable)
-
-## Datasets
-[Include this section only if the challenge includes provided data]
-
-- **Dataset Name**: Brief description of the dataset purpose and contents
-  - **Format**: File format and location (e.g., JSON at /data/filename.json, CSV at /data/filename.csv)
-  - **Size**: Approximate size or number of records
-  - **Structure**: Description of data organization (e.g., nested objects, relational tables)
-  - **Fields/Columns**: Summary of important fields/columns and their meaning
-- **Additional Dataset** (if applicable): Description of any additional datasets
+- Build process must be efficient (target: processing 100 posts in under 5 seconds)
+- Pagination must be correctly implemented and verified with unit tests
+- Markdown parsing and rendering must support common extensions (tables, code blocks, etc.)
+- All published pages must be properly linked and accessible
+- Pages should be SEO-friendly
 
 ## Deliverables
 - GitHub repository with complete source code
 - README with setup instructions and feature overview
 - 3 ~ 10 screenshots showcasing different app states
 - Description of technical decisions and challenges overcome
-- [Any additional deliverables specific to this challenge]
 - (Optional) Link to a YouTube video for a short demo (30 seconds ~ 2 minutes)
 
 ## Bonus Ideas (Optional)
-- Enhancement idea 1
-- Enhancement idea 2
-- Enhancement idea 3
-- Enhancement idea 4
+- Custom theme system with multiple design options
+- Related posts suggestions based on tags or content
+- RSS feed generation for subscribers
+- Social media sharing integration
+- Comment system for reader engagement
+- Image optimization pipeline for uploaded media
+- Analytics dashboard for content performance
+- Custom Markdown extensions for specialized content
 
 ## Additional Resources (Optional)
-- [Include any starter code, APIs, or documentation links here]
-- [Include reference materials if applicable]
+- [Markdown Specification](https://spec.commonmark.org/)
+- [Static Site Generation Concepts](https://jamstack.org/generators/)
+- [SEO Best Practices for Blogs](https://developers.google.com/search/docs/beginner/seo-starter-guide)
+- [Content Management System Design](https://en.wikipedia.org/wiki/Content_management_system)
+- [Web Performance Optimization](https://web.dev/performance/)
